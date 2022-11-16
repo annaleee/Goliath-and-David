@@ -1,0 +1,104 @@
+#map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4C86F9;
+}
+#prepare-page {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    background: url(img/prepare-bg.png) no-repeat;
+    background-size: cover;
+}
+#prepare-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#session-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 61px;
+    gap: 41px;
+    
+    width: 698px;
+    height: 124px;
+    
+    background: #4C86F9;
+    border-radius: 50px;
+}
+#session-title>p{
+    width: 576px;
+    height: 80px;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 80px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    color: #E7F5FE;
+
+}
+#session-code{
+    display:flex;
+    flex-direction: row;
+        width: 520px;
+        height: 26px;
+    
+        font-family: 'Press Start 2P';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 26px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #000000;
+}
+#session-code-text{
+    color:#4C86F9;
+}
+#players-display{
+    display: flex;
+    flex-direction:row;
+    padding:10px;
+}
+#players-display>*{
+    padding-top: 30px;
+    width: 297px;
+    height: 327px;
+}
+#start-button{
+    width: 334px;
+    height: 94px;
+    background: #4C86F9;
+    border-radius: 116px;
+}
+#start-button>p{
+    font-family: 'Press Start 2P';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 38px;
+        color: #FFFFFF;
+        text-align: center;
+}
+#start-button:disabled{
+    background: #B1B1B1;
+}
+#start-button:hover {
+    transform: scale(1.2);
+    transition: all 500ms linear;
+}
